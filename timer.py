@@ -13,7 +13,7 @@ countdown_restart = False
 
 
 def create_time_bar():
-    global timer_labelgit
+    global timer_label
     timer_label = tk.Label(
         timer, text=f"{time_format(countdown_preset)}", font="Arial 12 bold"
     )
